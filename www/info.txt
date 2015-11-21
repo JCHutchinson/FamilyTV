@@ -1,0 +1,8 @@
+username:  familyTvOwner
+password: familyTvProject
+
+$servername="p3plcpnl0758.prod.phx3.secureserver.net";
+	$username="familyTvOwner";
+	$password="familyTvProject";
+	$dbname="familytv_database1";
+	server ip = 160.153.33.38
