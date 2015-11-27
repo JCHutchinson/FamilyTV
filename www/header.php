@@ -48,10 +48,6 @@
 		<li><a href="#section1">About Us</a></li>
 		<li><a href="#section2">The Story</a></li>
 		<li><a href="#section3">Section 3</a></li>
-		<li><a href="login.php">Login</a></li>
+		<li><a href="./1353/fbconfig.php">Login</a></li>
 	</ul>
 </nav>
-
-
-
-
