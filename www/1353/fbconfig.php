@@ -1,4 +1,5 @@
 <?php
+include('../header.php');
   session_start();
   // added in v4.0.0
   require_once 'autoload.php';
@@ -17,7 +18,7 @@
   FacebookSession::setDefaultApplication( '1027094570675741','ae8cf2747d22659c0998d13a739b54c7' );
   // login helper with redirect_uri
       //$helper = new FacebookRedirectLoginHelper('familytv.bridgeitsolutions.ca' );
-      $helper = new FacebookRedirectLoginHelper('Location: index.php' );
+      $helper = new FacebookRedirectLoginHelper('Location: ../index.php' );
   try {
     $session = $helper->getSessionFromRedirect();
   } catch( FacebookRequestException $ex ) {
@@ -40,7 +41,7 @@
           $_SESSION['FULLNAME'] = $fbfullname;
   	    $_SESSION['EMAIL'] =  $femail;
       /* ---- header location after session ----*/
-    header("Location: index.php");
+    header("Location: ../index.php");
   } else {
     $loginUrl = $helper->getLoginUrl();
    header("Location: ".$loginUrl);
