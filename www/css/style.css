@@ -1,224 +1,270 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Chewy);
-@import url(https://fonts.googleapis.com/css?family=Lato);
-
-/** Colour Scheme: blue-#92B5FA 
-red - #FF545D
-
-**/
-
-html {
-	font-family: 'Lato', sans-serif;
-}
-
-body h1{
-	margin: 0;
-	text-align: center;
-	font-size: 6vw;
-	padding-top: 3vh;
-}
-
-hr{
-	width: 80%;
-	display: block;
-	height: 1px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	border: 0;
-	border-bottom: 1px solid #ccc;
-	padding-top: 20px;
-}
-
-.centre{
-	text-align: center;
-}
-
-.centre-image{
-	margin: 0 auto;
-}
-
-.top-spacer{
-	margin-top: 8vh;
-}
-
-.title{
-
-}
-
-.2ndtitle{
-
-}
-
-.box {
-		position:absolute;
-		left:0;
-		height:100vh;
-		background:#09f;
-	}
-
-nav{
-	position: fixed;
-	width: 100vw;
-	z-index: 20;
-	
-	visibility: hidden;
-	
-	background-color: #B9E1F7; 
-}
-
-nav ul{
-	padding: 0;
-	margin: 0 0 0 50vw;
-}
-
-nav li{
-	display: inline;
-	font-size: 2vw;
-	font-family: 'Open Sans', sans-serif;
-	padding: 0 1vw;
-}
-
-nav li a{
-	text-decoration: none;
-	color: #333;
-}
-
-nav li a:hover{
-	
-}
-
-#logo{
-	color: #333;
-	position: absolute;
-	font-family: 'Chewy', cursive;
-	font-size: 3vw;
-	padding: 0;
-	margin: auto 0 auto;
-	left: 8vw;
-	top: -7px;
-}
-
-.logo2{
-	font-family: 'Chewy', cursive !important;
-	color: #4783AA; 
-}
-
-#section1{
-	height: 100vh;
-	background-image: url("img/head-background-bw-o2.jpg");
-	background-repeat: no-repeat;
-	background-size: 100vw 100vh;
-	background-repeat: no-repeat;
-}
-
-#section1 p {
-	font-family: 'Lato', sans-serif;
-}
-
-#titlePage{
-	padding-top: 25vh;
-	font-size: 8vw;
-}
-
-#slogan{
-	font-size: 3vw;
-	color: #4783AA; 
-}
-
-#section1 i {
-	font-size: 7vw;
-	position: relative;
-	bottom: -20vh;
-	
-	color: #4783AA; 
-	
-	-moz-transition: font-size 0.3s;
-    -webkit-transition: font-size 0.3s;
-    -o-transition: font-size 0.3s;
-    -ms-transition: font-size 0.3s;
-    transition: font-size 0.3s;
-}
-
-#section1 a{
-	text-decoration: none;
-	color: initial;
-}
-
-#section1 a:hover i{
-	font-size: 8vw;
-}
-
-#section2{
-	
-}
-
-#section2 p{
-	font-size: 10vw;
-	text-align: center;
-	margin-top: 10vh;
-}
-
-#section3{
-	
-}
-
-#section3 i{
-	font-size: 15vw;
-}
-
-#section4{
-	background-color: #8ad78a;
-	height: 100vh;
-}
-
-#section5{
-	margin: 0 0 30vh;
-}
-
-#section5 h1{
-	margin: 0 0 5vh;
-}
-
-#section5 i{
-	font-size: 4vw;
-}
-
-#section5 p{
-	font-size: 2vw;
-	
-}
-
-.story{
-	position: relative;
-	right: 0;
-}
-
-.story-text{
-	font-size: 4vw;
-	font-family: 'Lato', sans-serif !important;
-}
-
-.story-space{
-	margin: 4vh 0;
-}
-
-.imageSize{
-	width: 20vw;
-	position: relative;
-}
-
-.bit-smaller{
-	width: 15vw;
-}
-
-.bit-larger{
-	width: 25vw;
-}
-
-.imageSize2{
-	width: 30vw;
-}
-
-.oddcolor{
-	background-color: green;
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Chewy);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+/** Colour Scheme: blue-#92B5FA 
+red - #FF545D
+
+**/
+
+html {
+	font-family: 'Lato', sans-serif;
+}
+
+body h1{
+	margin: 0;
+	text-align: center;
+	font-size: 6vw;
+	padding-top: 3vh;
+}
+
+hr{
+	width: 80%;
+	display: block;
+	height: 1px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	padding-top: 20px;
+}
+
+.centre{
+	text-align: center;
+}
+
+.centre-image{
+	margin: 0 auto;
+}
+
+.top-spacer{
+	margin-top: 8vh;
+}
+
+.title{
+
+}
+
+.2ndtitle{
+
+}
+
+.box {
+		position:absolute;
+		left:0;
+		height:100vh;
+		background:#09f;
+	}
+
+
+nav{
+	position: fixed;
+	width: 100vw;
+	z-index: 20;
+	
+	visibility: hidden;
+	
+	background-color: #B9E1F7; 
+}
+
+nav ul{
+	padding: 0;
+	margin: 0 0 0 50vw;
+}
+
+nav li{
+	display: inline;
+	font-size: 2vw;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0 1vw;
+}
+
+nav li a{
+	text-decoration: none;
+	color: #333;
+}
+
+nav li a:hover{
+	
+}
+
+#nav2{
+	position: fixed;
+	width: 100vw;
+	z-index: 20;
+	
+	background-color: #B9E1F7; 
+}
+
+#nav2 ul{
+	padding: 0;
+	margin: 0 0 0 50vw;
+}
+
+#nav2 li{
+	display: inline;
+	font-size: 2vw;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0 1vw;
+}
+
+#nav2 li a{
+	text-decoration: none;
+	color: #333;
+}
+
+#nav2 li a:hover{
+	
+}
+
+#logo{
+	color: #333;
+	position: absolute;
+	font-family: 'Chewy', cursive;
+	font-size: 3vw;
+	padding: 0;
+	margin: auto 0 auto;
+	left: 8vw;
+	top: -7px;
+}
+
+.logo2{
+	font-family: 'Chewy', cursive !important;
+	color: #4783AA; 
+}
+
+#section1{
+	height: 100vh;
+	background-image: url("/img/head-background-bw-o2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+}
+
+#section1 p {
+	font-family: 'Lato', sans-serif;
+}
+
+#titlePage{
+	padding-top: 25vh;
+	font-size: 8vw;
+}
+
+#slogan{
+	font-size: 3vw;
+	color: #4783AA; 
+}
+
+#section1 i {
+	font-size: 7vw;
+	position: relative;
+	bottom: -20vh;
+	
+	color: #4783AA; 
+	
+	-moz-transition: font-size 0.3s;
+    -webkit-transition: font-size 0.3s;
+    -o-transition: font-size 0.3s;
+    -ms-transition: font-size 0.3s;
+    transition: font-size 0.3s;
+}
+
+#section1 a{
+	text-decoration: none;
+	color: initial;
+}
+
+#section1 a:hover i{
+	font-size: 8vw;
+}
+
+#section2{
+	
+}
+
+#section2 p{
+	font-size: 10vw;
+	text-align: center;
+	margin-top: 10vh;
+}
+
+#section3{
+	
+}
+
+#section3 i{
+	font-size: 15vw;
+}
+
+#section4{
+	background-color: #8ad78a;
+	height: 100vh;
+}
+
+#section5{
+	margin: 0 0 30vh;
+}
+
+#section5 h1{
+	margin: 0 0 5vh;
+}
+
+#section5 i{
+	font-size: 4vw;
+}
+
+#section5 p{
+	font-size: 2vw;
+	
+}
+
+.story{
+	position: relative;
+	right: 0;
+}
+
+.story-text{
+	font-size: 4vw;
+	font-family: 'Lato', sans-serif !important;
+}
+
+.story-space{
+	margin: 4vh 0;
+}
+
+.imageSize{
+	width: 20vw;
+	position: relative;
+}
+
+.bit-smaller{
+	width: 15vw;
+}
+
+.bit-larger{
+	width: 25vw;
+}
+
+.imageSize2{
+	width: 30vw;
+}
+
+.oddcolor{
+	background-color: green;
+}
+
+#profile-container{
+	position: relative;
+	top: 15vh;
+	left: -0.5vw;
+}
+
+.psection{
+	height: 40vh;
+	text-align: center;
+}
+
+#profile-title{
+	font-size: 3vw;
+	text-align: center;
 }
