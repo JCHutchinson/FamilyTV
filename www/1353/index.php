@@ -15,7 +15,7 @@ session_start();
 <div class="container">
 <div class="hero-unit">
   <h1>Hello <?php echo $_SESSION['USERNAME']; ?></h1>
-  <p>Welcome to "facebook login" tutorial</p>
+  <p>Welcome to FamilyTV</p>
   </div>
 <div class="span4">
  <ul class="nav nav-list">
@@ -39,7 +39,7 @@ session_start();
 	  </div>
       </div> -->
       <!-- this php code is to send the user to the homepage if the user is not logged in -->
-      <!--<?php header("Location: http://familytv.bridgeitsolutions.ca"); ?> //code to redirect user to main page for now-->
+      <!--<?php //header("Location: http://familytv.bridgeitsolutions.ca"); ?> //code to redirect user to main page for now-->
     <?php endif ?>
   </body>
 
