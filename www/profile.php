@@ -1,18 +1,6 @@
 <?php
-include('header.php');
-?>
-
-<div id="nav2">
-	<p id="logo">FamilyTV</p>
-	<ul>
-		<li><a href="index.php">Home</a></li>
-		<li><a href="#section1">About Us</a></li>
-		<li><a href="#section2">The Story</a></li>
-		<li><a href="#section3">Section 3</a></li>
-		<li><a href="./1353/fbconfig.php">Login</a></li>
-	</ul>
-</div>
-
+include('header2.php');
+?>
 <div id="profile-container">
 
 <p id="profile-title">Welcome to FamilyTV</p>
