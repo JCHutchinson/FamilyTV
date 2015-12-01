@@ -1,12 +1,15 @@
 <?php
-session_start(); 
+//include('../header.php');
+session_start();
 ?>
 <!doctype html>
 <html xmlns:fb="http://www.facebook.com/2008/fbml">
+
   <head>
     <title>Login with Facebook</title>
-<link href="http://www.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet"> 
- </head>
+<link href="http://www.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet">
+  </head>
+
   <body>
   <?php if ($_SESSION['FBID']): ?>      <!--  After user login  -->
 <div class="container">
@@ -27,14 +30,17 @@ session_start();
 <div><a href="logout.php">Logout</a></div>
 </ul></div></div>
     <?php else: ?>     <!-- Before login --> 
-<div class="container">
+<!-- <div class="container">
 <h1>Login with Facebook</h1>
            Not Connected
 <div>
       <a href="fbconfig.php">Login with Facebook</a></div>
 	 <div> <a href="http://www.krizna.com/general/login-with-facebook-using-php/"  title="Login with facebook">View Post</a>
 	  </div>
-      </div>
+      </div> -->
+      <!-- this php code is to send the user to the homepage if the user is not logged in -->
+      <!--<?php header("Location: http://familytv.bridgeitsolutions.ca"); ?> //code to redirect user to main page for now-->
     <?php endif ?>
   </body>
+
 </html>
