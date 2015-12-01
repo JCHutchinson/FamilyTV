@@ -17,7 +17,7 @@ include('../header.php');
   // init app with app id and secret
   FacebookSession::setDefaultApplication( '1027094570675741','ae8cf2747d22659c0998d13a739b54c7' );
   // login helper with redirect_uri
-      $helper = new FacebookRedirectLoginHelper('http://familytv.bridgeitsolutions.ca' );
+      $helper = new FacebookRedirectLoginHelper('http://familytv.bridgeitsolutions.ca/profile.php' );
       //$helper = new FacebookRedirectLoginHelper('Location: localhost/FamilyTV/www/1353/index.php' );
   try {
     $session = $helper->getSessionFromRedirect();
