@@ -267,4 +267,4 @@ nav li a:hover{
 #profile-title{
 	font-size: 3vw;
 	text-align: center;
-}
+}#device-manager-container{	position: relative;	top: 10vh;}#device-manager-container.title{	font-size: 10vw;}
