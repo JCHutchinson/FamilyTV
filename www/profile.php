@@ -10,6 +10,7 @@ session_start();
 
 <?php if ($_SESSION['FBID']): ?>      <!--  After user login  -->
 <div class="container">
+	<?php echo ("Got Here"); ?>
 <div class="hero-unit">
   <h1>Hello <?php echo $_SESSION['USERNAME']; ?></h1>
   <p>Welcome to FamilyTV</p>

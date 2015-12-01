@@ -1,5 +1,5 @@
 <?php
-include('../header.php');
+// include('../header.php');
   session_start();
   // added in v4.0.0
   require_once 'autoload.php';
@@ -33,17 +33,25 @@ include('../header.php');
     $response = $request->execute();
     // get response
     $graphObject = $response->getGraphObject();
+
+    $fbuname = $graphObject->getProperty('username'); //To get Facebook username
+
        	$fbid = $graphObject->getProperty('id');              // To Get Facebook ID
    	    $fbfullname = $graphObject->getProperty('name'); // To Get Facebook full name
   	    $femail = $graphObject->getProperty('email');    // To Get Facebook email ID
   	/* ---- Session Variables -----*/
-  	    $_SESSION['FBID'] = $fbid;           
-          $_SESSION['FULLNAME'] = $fbfullname;
+  	    $_SESSION['FBID'] = $fbid;
+        $_SESSION['USERNAME'] = $fbuname;
+        $_SESSION['FULLNAME'] = $fbfullname;
   	    $_SESSION['EMAIL'] =  $femail;
+
+        echo '<pre>' .print_r($graphObject, 1) . '</pre>';
       /* ---- header location after session ----*/
-    header("Location: ../index.php");
+    // header("Location: ../profile.php");
   } else {
-    $loginUrl = $helper->getLoginUrl();
-   header("Location: ".$loginUrl);
+    //show login url
+    echo '<a href=" ' .$helper->getLoginUrl().'">Login</a>';
+//    $loginUrl = $helper->getLoginUrl();
+   // header("Location: ".$loginUrl);
   }
 ?>
