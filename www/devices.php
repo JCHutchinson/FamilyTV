@@ -6,7 +6,11 @@ include('header2.php');
 
 <p>Device Manager</p>
 
+<p>You currently have <em>"0"</em> devices connected to your profile</p>
+
 </div>
+
+
 
 
 
