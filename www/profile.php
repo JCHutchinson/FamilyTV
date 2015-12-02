@@ -1,8 +1,8 @@
 <?php
 
 include('header2.php');
-// include('./1353/fbconfig.php');
-session_start();
+include('./1353/fbconfig.php');
+// session_start();
 ?>
 
 
@@ -11,7 +11,7 @@ session_start();
 <?php if ($_SESSION['FBID']): ?>      <!--  After user login  -->
 <div class="container">
 <div class="hero-unit">
-  <h1>Hello <?php echo $_SESSION['USERNAME']; ?></h1>
+  <h1>Hello <?php echo $_SESSION['FULLNAME']; ?></h1>
   <p>Welcome to FamilyTV</p>
   </div>
 <div class="span4">

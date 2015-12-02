@@ -49,11 +49,11 @@
 
 		<li><a href="index.php">Home</a></li>
 
-		<li><a href="#section2">The Story</a></li>
+		<!--<li><a href="#section2">The Story</a></li>-->
 
-		<li><a href="#section3">The Solution</a></li>
+		<!--<li><a href="#section3">The Solution</a></li>-->
 
-		<li><a href="./1353/fbconfig.php">Login</a></li>
+		<li><a href="./1353/logout.php">Logout</a></li>
 
 	</ul>
 
