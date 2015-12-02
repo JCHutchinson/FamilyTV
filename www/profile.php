@@ -1,8 +1,8 @@
 <?php
 
 include('header2.php');
-//include('./1353/fbconfig.php');
-session_start();
+include('./1353/fbconfig.php');
+// session_start();
 ?>
 
 
@@ -62,7 +62,7 @@ session_start();
 
 <div class="col-md-3 psection" style="background-color: #E2ECF6">
 
-	<h3>Firstname LastName</h3> 
+	<h3> <?php echo $_SESSION['FULLNAME']; ?> </h3> 
 
 	<h3>Location</h3>
 

@@ -50,8 +50,8 @@
     // header("Location: ../profile.php");
   } else {
     //show login url
-    echo '<a href=" ' .$helper->getLoginUrl().'">Login</a>';
-//    $loginUrl = $helper->getLoginUrl();
-   // header("Location: ".$loginUrl);
+    // echo '<a href=" ' .$helper->getLoginUrl().'">Login</a>';
+   $loginUrl = $helper->getLoginUrl();
+   header("Location: ".$loginUrl);
   }
 ?>
