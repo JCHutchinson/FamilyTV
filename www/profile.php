@@ -54,7 +54,8 @@ include('./1353/fbconfig.php');
 
 <div class="col-md-3">
 
-	<img src="img/tempprofile.jpg" class="img-circle" style="width: 20vw;"/>
+	<!-- <img src="img/tempprofile.jpg" class="img-circle" style="width: 20vw;"/> -->
+<img src="https://graph.facebook.com/<?php echo $_SESSION['FBID']; ?>/picture" class="img-circle" style="width: 20vw;"/>
 
 </div>
 

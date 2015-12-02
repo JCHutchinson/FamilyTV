@@ -24,6 +24,4 @@ include('connectDB.php');
 $stmt->close();	
 $conn->close();
 
-
-
 ?>
