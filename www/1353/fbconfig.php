@@ -45,7 +45,7 @@
         $_SESSION['FULLNAME'] = $fbfullname;
   	    $_SESSION['EMAIL'] =  $femail;
 
-        echo '<pre>' .print_r($graphObject, 1) . '</pre>';
+        // echo '<pre>' .print_r($graphObject, 1) . '</pre>';
       /* ---- header location after session ----*/
     // header("Location: ../profile.php");
   } else {
