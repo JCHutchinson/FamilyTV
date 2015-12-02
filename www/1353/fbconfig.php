@@ -35,7 +35,6 @@
     $graphObject = $response->getGraphObject();
 
     $fbuname = $graphObject->getProperty('username'); //To get Facebook username
-    $fblocation = $graphObject->getLocation(); //To get the user's location
 
        	$fbid = $graphObject->getProperty('id');              // To Get Facebook ID
    	    $fbfullname = $graphObject->getProperty('name'); // To Get Facebook full name
@@ -45,7 +44,6 @@
         $_SESSION['USERNAME'] = $fbuname;
         $_SESSION['FULLNAME'] = $fbfullname;
   	    $_SESSION['EMAIL'] =  $femail;
-        $_SESSION['LOCATION'] = $fblocation;
 
         // echo '<pre>' .print_r($graphObject, 1) . '</pre>';
       /* ---- header location after session ----*/

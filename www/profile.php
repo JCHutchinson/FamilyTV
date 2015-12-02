@@ -64,7 +64,7 @@ include('./1353/fbconfig.php');
 
 	<h3> <?php echo $_SESSION['FULLNAME']; ?> </h3> 
 
-	<h3>Location: <?php echo $_SESSION['LOCATION']; ?> </h3>
+	<h3>Location</h3>
 
 </div>
 
